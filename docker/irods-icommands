@@ -1,0 +1,4 @@
+
+
+# Docker run in interactive mode
+docker run -i -t irods/icommands:4.0.3
