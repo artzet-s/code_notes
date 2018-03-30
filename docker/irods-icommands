@@ -16,3 +16,7 @@ docker commit f5950fc77a3a irods/icommands:my
 
 # delete a image
 docker rmi [id_image or name]
+
+docker -v /c/Users/data:/data -ti ubuntu
+
+# On ubuntu before install something you need to get-apt update
