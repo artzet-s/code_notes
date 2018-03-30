@@ -1,4 +1,18 @@
 
+# show images
+docker images
 
 # Docker run in interactive mode
 docker run -i -t irods/icommands:4.0.3
+
+# on a other terminal use docker ps to see current docker
+docker ps
+> f5950fc77a3a
+
+# save a container in a new images with last modification:
+docker commit f5950fc77a3a irods/icommands:my
+
+# Mount docker
+
+# delete a image
+docker rmi [id_image or name]
