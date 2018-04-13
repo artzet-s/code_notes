@@ -1,0 +1,1 @@
+nosetests --with-coverage --cover-erase --cover-html --cover-package=openalea.phenomenal --cover-tests --cover-inclusive
