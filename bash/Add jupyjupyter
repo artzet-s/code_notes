@@ -1,2 +1,0 @@
-# How launch a Notebook Server on a cloud VM ?
-jupyter notebook --no-browser --ip=<local_ip> &
